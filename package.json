@@ -1,0 +1,22 @@
+{
+  "name": "reto-clase",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "concurrently \"nodemon app-server.js\" \"nodemon communication.js\""
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.0.2"
+  },
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
